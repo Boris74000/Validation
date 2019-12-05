@@ -1,0 +1,64 @@
+/*tr:nth-child(even) {
+    background-color: #dddddd;
+}
+*/
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+nav {
+    background-color: cadetblue;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+form div {
+    display: flex;
+    margin: 20px;
+}
+
+form label {
+    flex-basis: 15%;
+}
+
+input, textarea {
+    border-radius: 5px;
+
+}
+
+input {
+    width: 40%;
+}
+
+.bouton {
+    width: 20%;
+}
+
+.creer {
+    background-color: cadetblue;
+    font-weight: bold;
+
+}
+
